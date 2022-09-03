@@ -1,7 +1,5 @@
 # Todolist App in Flask
 
-## How to Run
-
 This works with `Python v3.8` and up.
 
 ## How To Run
@@ -36,3 +34,7 @@ This server will start on port 5001. You can change this in `app.py` by changing
 if __name__ == "__main__":
     app.run(port=<desired port> , debug=True)
 ```
+
+## Final Look
+
+![alt text](/images/ui-shoot.png)
