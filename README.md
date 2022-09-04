@@ -8,6 +8,12 @@ This works with `Python v3.8` and up.
 $ pip install virtualenv
 ```
 
+Or for Updated version of pip
+
+```
+$ pip3 install virtualenv
+```
+
 2. Open a terminal in the project root directory and run:
 ```
 $ virtualenv env
@@ -15,7 +21,8 @@ $ virtualenv env
 
 3. Then run the command:
 ```
-$ .\env\Scripts\activate
+Windows: $ .\env\Scripts\activate
+Unix: $ source env/bin/activate
 ```
 
 4. Then install the dependencies:
